@@ -9,6 +9,7 @@ public class SnakeAndLadder {
 	public static void main(String [] args){
 		Random ran = new Random();
 		int position = 0;
+		int counter = 0;
 		System.out.println("Starting position of Player is :" + start);
 		
 		while(position<100) {
@@ -32,10 +33,13 @@ public class SnakeAndLadder {
 			if(position<0) {
 				position = 0;
 			}
+			System.out.println("Player position: "+position);
 			break;
-		}	
+		}
+		counter++;
 		
 	}
+		System.out.println("No of times die rolled: "+counter);
         System.out.println("Player Won");
 
 	}
