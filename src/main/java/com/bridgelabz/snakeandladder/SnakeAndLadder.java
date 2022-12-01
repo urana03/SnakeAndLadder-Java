@@ -31,12 +31,8 @@ public class SnakeAndLadder {
 			position = position - die;
 			if(position<0) {
 				position = 0;
-				System.out.println("Player's position: "+position);
 			}
-			else {
-				System.out.println("Player's position: "+position);
-			}
-			System.out.println("Player's position is: "+position);
+			break;
 		}	
 		
 	}
